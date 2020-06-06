@@ -118,7 +118,7 @@ const Points = () => {
                 <Marker
                   key={String(point.id)}
                   style={styles.mapMarker}
-                  onPress={() => handleNavidateToDatail(item.id)}
+                  onPress={() => handleNavidateToDatail(point.id)}
                   coordinate={{
                     latitude: point.latitude,
                     longitude: point.longitude,
